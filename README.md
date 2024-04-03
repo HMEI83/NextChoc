@@ -6,12 +6,6 @@
 
   <h3 align="center">NextChoc APP React Native</h3>
 
-  <p align="center">
-    代码交付日期：2023.8.8
-    <br/>
-  
-  </p>
-</p>
 
 
 
@@ -26,8 +20,3 @@
 ## License
 
 Distributed under the MIT License. See [LICENSE](https://github.com/Yusi/NextChoc/blob/main/LICENSE.md) for more information.
-
-## Authors
-
-* **WinterOmii**
-* **zhzhf**
