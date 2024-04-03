@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "803784539907",
+    "firebase_url": "https://nextchoc-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "nextchoc",
+    "storage_bucket": "nextchoc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803784539907:android:68936b34e41371d2347336",
+        "android_client_info": {
+          "package_name": "com.yfd.zh.NextChoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803784539907-baltnnd46r0g9ostfnrec7hudee16qkg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yfd.zh.NextChoc",
+            "certificate_hash": "c0e08d9434ff456cb6bb3978c762c4d16f9322fd"
+          }
+        },
+        {
+          "client_id": "803784539907-gjl58g7vaep8lcg4f5o9o0pl5crl4d6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yfd.zh.NextChoc",
+            "certificate_hash": "4c79cc14beea8387fd593850fe14d519b881c050"
+          }
+        },
+        {
+          "client_id": "803784539907-5779kbn3uuvsjva130uk033ivm7ek4ke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfZE5Qk_OevP4_GHRFS3q5CDLtB-TET5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803784539907-5779kbn3uuvsjva130uk033ivm7ek4ke.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "803784539907-gm2gtt0tnafdneavst5nld475a0r7qi6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yfd.zh.NextChoc"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

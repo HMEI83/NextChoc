@@ -1,0 +1,107 @@
+{
+  "expo": {
+    "name": "NextChoc",
+    "slug": "NextChoc",
+    "owner": "yusi-dev",
+    "backgroundColor": "#ffffff",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon.png",
+    "scheme": "nextchoc",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "appStoreUrl": "https://apps.apple.com/us/app/nextchoc/id6461417297",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyDGN82dH6sdACFmVh0kOcqW9E3SOiu6b0A"
+      },
+      "googleServicesFile": "./utils/GoogleService-Info.plist",
+      "bundleIdentifier": "com.yfd.zh.NextChoc",
+      "supportsTablet": false,
+      "buildNumber": "70"
+    },
+    "android": {
+      "googleServicesFile": "./utils/google-services.json",
+      "versionCode": 70,
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "com.yfd.zh.NextChoc",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCfZE5Qk_OevP4_GHRFS3q5CDLtB-TET5Y"
+        }
+      }
+    },
+    "plugins": [
+      "./bin/map.js",
+      [
+        "@stripe/stripe-react-native",
+        {
+          "merchantIdentifier": "merchant.com.NextChoc",
+          "enableGooglePay": true
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "discover nearby stores"
+        }
+      ],
+      "@react-native-google-signin/google-signin",
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 33,
+            "targetSdkVersion": 33,
+            "buildToolsVersion": "31.0.0"
+          },
+          "ios": {
+            "useFrameworks": "static",
+            "deploymentTarget": "13.0"
+          }
+        }
+      ],
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "605892931657037",
+          "clientToken": "add1fdfe2d8d29d48c1c32bdadd71291",
+          "displayName": "NEXTCHOC",
+          "scheme": "fb605892931657037",
+          "advertiserIDCollectionEnabled": false,
+          "autoLogAppEventsEnabled": false,
+          "isAutoInitEnabled": false,
+          "iosUserTrackingPermission": false
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2c3e6d98-2445-40a9-b42a-b131247192f1"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2c3e6d98-2445-40a9-b42a-b131247192f1"
+    }
+  },
+  "appVersionSource": "remote"
+}

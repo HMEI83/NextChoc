@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>803784539907-gm2gtt0tnafdneavst5nld475a0r7qi6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.803784539907-gm2gtt0tnafdneavst5nld475a0r7qi6</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>803784539907-baltnnd46r0g9ostfnrec7hudee16qkg.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDGN82dH6sdACFmVh0kOcqW9E3SOiu6b0A</string>
+	<key>GCM_SENDER_ID</key>
+	<string>803784539907</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.yfd.zh.NextChoc</string>
+	<key>PROJECT_ID</key>
+	<string>nextchoc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nextchoc.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:803784539907:ios:6427d987ed94b37e347336</string>
+	<key>DATABASE_URL</key>
+	<string>https://nextchoc-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>
